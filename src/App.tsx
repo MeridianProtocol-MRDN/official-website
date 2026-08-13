@@ -32,6 +32,7 @@ import InvestorDisclosure from "@/pages/InvestorDisclosure";
 import CommunityGuidelines from "@/pages/CommunityGuidelines";
 import SecurityPolicy from "@/pages/SecurityPolicy";
 import IncidentResponse from "@/pages/IncidentResponse";
+import Staking from "@/pages/Staking";
 import NotFound from "@/pages/NotFound";
 
 import Privacy from "@/pages/legal/Privacy";
@@ -48,6 +49,7 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/technology" element={<Technology />} />
         <Route path="/token" element={<Token />} />
+        <Route path="/staking" element={<Staking />} />
         <Route path="/tokenomics" element={<Tokenomics />} />
         <Route path="/roadmap" element={<Roadmap />} />
         <Route path="/security" element={<Security />} />
