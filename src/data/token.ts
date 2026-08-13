@@ -1,7 +1,3 @@
-// Single source of truth for all token facts referenced across the site.
-// Update values here only — never hardcode the contract address, supply,
-// or links inside individual components.
-
 export const TOKEN_CONFIG = {
   name: "Meridian Protocol",
   symbol: "MRDN",
@@ -15,23 +11,22 @@ export const TOKEN_CONFIG = {
   explorerUrl:
     "https://bscscan.com/token/0xd4025a390a0b2a606f24Ea33A902D10D978715F2",
   contractVerified: true,
-  auditStatus: "pending" as const, // "pending" | "in-progress" | "completed"
+  auditStatus: "pending" as const,
 } as const;
 
 export const SITE_CONFIG = {
   domain: "meridianprotocol.site",
   url: "https://meridianprotocol.site",
   contactEmail: "admin@meridianprotocol.site",
-  githubUrl: "https://github.com/meridian-protocol", // update once repo is public
+  githubUrl: "https://github.com/MeridianProtocol-Official",
   twitterUrl: "https://x.com/Meridian_MRDN",
   twitterHandle: "@Meridian_MRDN",
-  discordUrl: "https://discord.gg/2K3B69k3A",
-  telegramUrl: "https://t.me/MeridianProtocol",
+  discordUrl: "https://discord.gg/ymBr23ppCq",
+  telegramUrl: "https://t.me/MeridianProtocolMRDN",
+  linkedinUrl: "https://www.linkedin.com/in/meridianprotocol-mrdn",
 } as const;
 
 export const PROJECT_STATUS = {
-  // Keep this in sync with reality. Do not mark LIVE unless the product
-  // functionality described is actually shipped.
   stage: "DEVELOPMENT" as
     | "PRE-LAUNCH"
     | "DEVELOPMENT"
