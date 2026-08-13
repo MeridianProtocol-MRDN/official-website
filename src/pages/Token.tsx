@@ -14,7 +14,7 @@ const FACTS: { label: string; value: string }[] = [
 
 const UTILITY = [
   { label: "Governance participation", status: "PLANNED" },
-  { label: "Staking", status: "PLANNED" },
+  { label: "Staking", status: "LIVE" },
   { label: "Ecosystem rewards", status: "PLANNED" },
   { label: "Community structure", status: "IN DEVELOPMENT" },
 ];
