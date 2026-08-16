@@ -1,0 +1,22 @@
+{
+  "name": "Meridian Protocol",
+  "short_name": "Meridian",
+  "description": "Live dashboard and staking companion for Meridian Protocol (MRDN) on BNB Smart Chain. Read-only — never custodies funds or handles buy/sell.",
+  "start_url": "/dashboard",
+  "display": "standalone",
+  "background_color": "#0B1220",
+  "theme_color": "#0B1220",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "/favicon/token-icon.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon/token-icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
