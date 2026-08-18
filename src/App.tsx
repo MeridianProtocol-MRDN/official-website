@@ -1,6 +1,6 @@
 import { Routes, Route } from "react-router-dom";
 import RootLayout from "@/layouts/RootLayout";
-
+import Dashboard from "@/pages/Dashboard";
 import Home from "@/pages/Home";
 import About from "@/pages/About";
 import Technology from "@/pages/Technology";
@@ -46,6 +46,7 @@ export default function App() {
     <Routes>
       <Route element={<RootLayout />}>
         <Route path="/" element={<Home />} />
+        <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/about" element={<About />} />
         <Route path="/technology" element={<Technology />} />
         <Route path="/token" element={<Token />} />
