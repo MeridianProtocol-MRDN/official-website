@@ -8,6 +8,7 @@ export const PRIMARY_NAV: NavLink[] = [
   { label: "Technology", href: "/technology" },
   { label: "MRDN", href: "/token" },
   { label: "Staking", href: "/staking" },
+  { label: "Dashboard", href: "/dashboard" },
   { label: "Tokenomics", href: "/tokenomics" },
   { label: "Roadmap", href: "/roadmap" },
   { label: "Security", href: "/security" },
@@ -21,6 +22,7 @@ export const FOOTER_NAV = {
     { label: "Technology", href: "/technology" },
     { label: "MRDN", href: "/token" },
     { label: "Staking", href: "/staking" },
+    { label: "Dashboard", href: "/dashboard" },
     { label: "Tokenomics", href: "/tokenomics" },
     { label: "Ecosystem", href: "/ecosystem" },
     { label: "Roadmap", href: "/roadmap" },
@@ -44,7 +46,7 @@ export const FOOTER_NAV = {
   community: [
     { label: "X", href: "https://x.com/Meridian_MRDN" },
     { label: "Telegram", href: "https://t.me/MeridianProtocolMRDN" },
-    { label: "Discord", href: "https://discord.gg/ymBr23ppCq" },
+    { label: "Discord", href: "https://discord.gg/7DxG75Ajt8" },
     { label: "Contact", href: "/contact" },
   ],
   legal: [
