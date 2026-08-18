@@ -19,16 +19,29 @@ export default function Tokenomics() {
         </div>
 
         <div className="mt-14">
-          <h2 className="text-xl font-medium text-ink">Allocation framework</h2>
+          <h2 className="text-xl font-medium text-ink">Allocation</h2>
           <p className="mt-2 text-[13.5px] text-ink-dim">
-            A structural framework under consideration — not a distribution that has happened. No
-            percentages are published until wallet addresses and any vesting contracts exist on-chain.
+            Percentages finalized; on-chain distribution mechanisms are being deployed
+            progressively. Status reflects exactly what is live today.
           </p>
           <div className="mt-5 divide-y divide-surface-border rounded-lg border border-surface-border">
             {ALLOCATION_CATEGORIES.map((c) => (
-              <div key={c.id} className="flex items-center justify-between px-5 py-4">
-                <span className="text-[13.5px] text-ink">{c.name}</span>
-                <StatusBadge status={c.status} tone="planned" />
+              <div key={c.id} className="px-5 py-4">
+                <div className="flex items-center justify-between">
+                  <span className="text-[13.5px] font-medium text-ink">{c.name}</span>
+                  <div className="flex items-center gap-3">
+                    {c.percent && (
+                      <span className="text-[13px] text-ink-dim">{c.percent}</span>
+                    )}
+                    <StatusBadge status={c.status} tone="planned" />
+                  </div>
+                </div>
+                {c.tokens && (
+                  <p className="mt-1 text-[12px] text-ink-faint">{c.tokens} MRDN</p>
+                )}
+                {c.note && (
+                  <p className="mt-1 text-[12px] text-ink-faint">{c.note}</p>
+                )}
               </div>
             ))}
           </div>
@@ -41,4 +54,4 @@ export default function Tokenomics() {
       </div>
     </div>
   );
-}
+                    }
