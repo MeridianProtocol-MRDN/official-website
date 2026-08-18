@@ -23,7 +23,7 @@ export const SITE_CONFIG = {
   twitterHandle: "@Meridian_MRDN",
   discordUrl: "https://discord.gg/ymBr23ppCq",
   telegramUrl: "https://t.me/MeridianProtocolMRDN",
-  linkedinUrl: "https://www.linkedin.com/in/meridianprotocol-mrdn",
+  linkedinUrl: "https://www.linkedin.com/in/farhan-faiz-meridian",
 } as const;
 
 export const PROJECT_STATUS = {
